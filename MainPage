@@ -4,10 +4,11 @@
 <!--this is commenting out a line
 <img border="0" src="pic_mountain.jpg" alt="Mountain">
 -->
-<title style="color:red; background-color:DodgerBlue; size:120px;">Sam's Apartments</title>
+<link rel="shortcut icon" type="image/svg" href="grey-house">
+<title style="color:red; background-color:DodgerBlue; size:120px;">Howell Apartments</title>
 </head>
 <body>
-<h1></h1>
+<h1>Howell Apartments</h1>
 <p></p>
 </body>
 </html> 
