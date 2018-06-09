@@ -10,8 +10,15 @@
 --> 
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <title>Howell Apartments</title>
+   <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("Email.html"); 
+    });
+    </script> 
 </head>
 <body>
+<div id="includedContent"></div>
 <h1 style="color:white;">Howell Apartments</h1>
 <!--STYLE="position:absolute; TOP:80px; LEFT:400px; WIDTH:200px; HEIGHT:50px"--><p>
 Welcome! Please check out our Apartments and Homes for rent!
@@ -21,20 +28,7 @@ Welcome! Please check out our Apartments and Homes for rent!
     Your e-mail:
     <input type="email" placeholder="darth.vader@empire.gov" name="mail">
 </label>
-<html> 
-  <head> 
-    <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("Email.html"); 
-    });
-    </script> 
-  </head> 
 
-  <body> 
-     <div id="includedContent"></div>
-  </body> 
-</html>
 </p>
   <script>
 function interested(sw) {
