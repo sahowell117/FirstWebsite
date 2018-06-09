@@ -21,7 +21,20 @@ Welcome! Please check out our Apartments and Homes for rent!
     Your e-mail:
     <input type="email" placeholder="darth.vader@empire.gov" name="mail">
 </label>
-  <div w3-include-html="Email.html"></div>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("Email.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>
 </p>
   <script>
 function interested(sw) {
