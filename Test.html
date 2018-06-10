@@ -5,7 +5,9 @@
 </head>
 <h1>hi
   <div><include src="header.html"></include></div></h1>
-   <script>
-       includeHTML('header.html', document.getElementById('header'));
+       <script>
+      includeHTML('header.html', document.getElementById('header'), function(){
+      includeHTML('menu.html', document.getElementById('mainMenu'));
+      });
     </script>
 </html>
