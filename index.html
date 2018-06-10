@@ -1,15 +1,14 @@
-<html>
-	<head>
-		<script src="jquery.js"></script>
-		<script src="jquery.include.js"></script>
-
-		<script>
-			$(document).ready(function () {
-				alert($("#test").text());
-			});
-		</script>
-	</head>
-	<body>
-		<script>$.include("include.inc");</script>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="../lib/include.js"></script>
+  </head>
+  <body>
+    <include src="header.html"></include>
+    <article>
+      <p>We are ACME Inc. We manufacture <b>everything</b>.</p>
+    </article>
+    <include src="footer.html"></include>
+  </body>
 </html>
