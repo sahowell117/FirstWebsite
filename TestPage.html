@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="import" href="PageBuilder.html"></head>
-    <body>
-     <div class="put-include-here">
-        <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-        var el = content.querySelector('.put-include-here');
-        document.body.appendChild(el.cloneNode(true));
-        </script> 
-     </div>
-    </body>
+  <head>
+    <script src="C:\Users\sahowell\Documents\GitHub\iclude.js"></script>
+  </head>
+  <body>
+    <div w3-include-html="PageBuilder.html"></div> 
+    <script>
+      w3IncludeHTML();
+    </script>
+  </body>
 </html>
