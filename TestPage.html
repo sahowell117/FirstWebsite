@@ -2,7 +2,13 @@
     <head><link rel="import" href="PageBuilder.html"></head>
     <body>
      <div class="put-include-here">
-       <include-polyfill href="PageBuilder.html" />
+        <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        var el = content.querySelector('.put-include-here');
+        document.body.appendChild(el.cloneNode(true));
+        </script> 
      </div>
+         <include-polyfill href="PageBuilder.html" />
     </body>
 </html>
