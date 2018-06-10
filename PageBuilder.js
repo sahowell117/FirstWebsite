@@ -5,3 +5,4 @@ function buildPage() {
     //In the end...
     ('html-id').empty().append(html);
 }
+document.getElementById("htmil-id").innerHTML = buildPage();
