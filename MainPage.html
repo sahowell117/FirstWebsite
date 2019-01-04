@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
+<style>
     body {text-align:center}
     h1 {text-align:center; background-color:blue}
     p {text-align:center}
-  </style>
-<!--this is commenting out a line
---> 
+</style>
+<head>
+    <script src="include.js" type="text/javascript">
+        var num;
+        pictureSwap(num)
+    </script>
+
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<title>Howell Apartments</title>
+
+<title>Introducing the Spring Collection</title>
+
 </head>
 <body>
 <div id="includedContent"></div>
-<h1 style="color:white;">Howell Apartments</h1>
-<script src="Email.js"></script>
-<!--STYLE="position:absolute; TOP:80px; LEFT:400px; WIDTH:200px; HEIGHT:50px"--><p>
-Welcome! Please check out our Apartments and Homes for rent!
-<button type="button" onclick="interested(1)">1220 7th St. E.</button>
-<button type="button" onclick="interested(0)">Close</button>
-  <a href="C:\Users\sahowell\Documents\GitHub\FirstWebsite\Email.html">Contact Us!</a>
+<h1 style="color:white;">Enter Header Here</h1>
+
+Welcome! Please check out my site!
+<button type="button" onclick="interested(0)">1220 7th St. E.</button>
+<button type="button" onclick="interested(1)">Close</button>
+  <a href="http://localhost:63342/practice/html_javascript/Email.html">Contact Us!</a>
 <label>
     Your e-mail:
     <input type="email" placeholder="darth.vader@empire.gov" name="mail">
 </label>
 
-</p>
-  <script>
-function interested(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "grey-house.png"
-    } else {
-        pic = "favicon.ico"
-    }
-    document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="grey-house.png" width="100" height="180">
-
+<img id="myImage" src="images/alert.png" width="24" height="24">
 
 
 </body>
